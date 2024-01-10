@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nike</title>
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css"rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!--loading screen-->
+  <div id="loader">
+    <h1>JUST</h1>
+    <h1>DO</h1>
+    <h1>IT</h1>
+    <img src="nike-128.png" alt="">
+  </div>
+  <!--headerr-->
+  <header class="header" data-header>
+    <div class="container">
+      <!--navbar starts-->
+      <div class="overlay" data-overlay></div>
+      <div class="header-search">
+        <input type="search" name="search" placeholder="Search Product..." class="input-field">
+        <button class="search-btn">
+          <i class="ri-search-2-line"></i>
+        </button>
+      </div>
+      <a href="#" class="logo">
+        <img src="nike-64 (1).png" alt="" width="50" height="31">
+      </a>
+      <div class="header-actions">
+        <button class="header-action-btn">
+          <!--the one that starts with "ri" is an icon tool by the name of remixicon -->
+          <i class="ri-user-line"></i>
+          <p class="header-action-label">Sign in</p>
+        </button>
+        <button class="header-action-btn">
+          <i class="ri-search-2-line"></i>
+          <p class="header-action-label">Search</p>
+        </button>
+        <button class="header-action-btn">
+          <i class="ri-shopping-cart-line"></i>
+          <p class="header-action-label">Cart</p>
+        </button>
+        <button class="header-action-btn">
+          <i class="ri-heart-3-line"></i>
+          <p class="header-action-label">WishList</p>
+          <div class="btn-badge">0</div>
+        </button>
+      </div>
+      <!--start of resposinve menu bar-->
+      <button class="nav-open-btn" data-nav-open-btn >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="navbar" data-navbar>
+        <div class="navbar-top">
+          <a href="#" class="logo"><img src="nike-64 (1).png" alt="logo" width="80" height="31"></a>
+          <button class="nav-close-btn" data-nav-close-btn >
+            <i class="ri-close-fill"></i>
+          </button>
+        </div>
+        <ul class="navbar-list"><!--navbar links-->
+          <li><a href="#home" class="navbar-link">Home</a></li>
+          <li><a href="#" class="navbar-link">Shop</a></li>
+          <li><a href="#" class="navbar-link">Men</a></li>
+          <li><a href="#" class="navbar-link">Women</a></li>
+          <li><a href="#" class="navbar-link">Kids</a></li>
+          <li><a href="#" class="navbar-link">Limiteds</a></li>
+          <li><a href="#" class="navbar-link">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <article><!--banner pic-->
+      <section class="hero" id="home" style="background-image: url(banner.png)">
+        <div class="container">
+          <div class="hero-content">
+            <p class="hero-subtitle">Nike Sense</p>
+            <h2 class="h1 hero-title">JUST DO IT</h2>
+            <button class="btn btn-primary">Shop Now</button>
+          </div>
+        </div>
+      </section><!--unique services nike provides-->
+      <section class="service">
+        <div class="container">
+          <ul class="service-list">
+            <li class="service-item">
+              <div class="service-content">
+                <p class="serv-title">Free Shipping</p>
+                <p class="service-item-text">On All Order Over AED 200</p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-content">
+                <p class="serv-title">Easy Returns</p>
+                <p class="service-item-text">30 Day Returns Policy</p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-content">
+                <p class="serv-title">Secure Payment</p>
+                <p class="service-item-text">100% Secure Guarantee</p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-content">
+                <p class="serv-title">Special Support</p>
+                <p class="service-item-text">24/7 Support</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="section category"><!--start of product types grids-->
+        <div class="container">
+          <ul class="category-list">
+            <li class="category-item">
+              <figure class="category-banner">
+                <img src="PA-min.png" alt="" loading="lazy" width="510" height="600"
+                  class="itempic">
+              </figure>
+              <a href="#" class="btn btn-secondary">Women</a>
+            </li>
+            <li class="category-item">
+              <figure class="category-banner">
+                <img src="PB-.png" alt="" loading="lazy" width="510" height="600"class="itempic">
+              </figure>
+              <a href="#" class="btn btn-secondary">Men</a>
+            </li>
+            <li class="category-item">
+              <figure class="category-banner">
+                <img src="PC-min.png" alt="" loading="lazy" width="510" height="600"class="itempic">
+              </figure>
+              <a href="#" class="btn btn-secondary">Kids</a>
+            </li>
+            <li class="category-item">
+              <figure class="category-banner">
+                <img src="Screenshot 2024-01-10 182902.png" alt="" loading="lazy" width="510"height="600" class="itempic">
+              </figure>
+              <a href="#" class="btn btn-secondary">Weather-Ready Gear</a>
+            </li>
+            <li class="category-item">
+              <figure class="category-banner">
+                <img src="Screenshot 2024-01-10 190111.png" alt="" loading="lazy" width="510" height="600"class="itempic">
+              </figure>
+              <a href="#" class="btn btn-secondary">Outdoor</a>
+            </li>
+            <li class="category-item">
+              <figure class="category-banner">
+                <img src="PE.png" alt="" loading="lazy" width="510" height="600"class="itempic">
+              </figure>
+              <a href="#" class="btn btn-secondary">Jordan Air</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="section product"><!--start of special products on sale-->
+        <div class="container">
+          <h2 class="h2 section-title">Products of the week</h2>
+          <ul class="filter-list">
+            <li><button class="filter-btn  active">Best Seller</button></li>
+            <li><button class="filter-btn">Hot Collection</button></li>
+            <li><button class="filter-btn">Trendy</button></li>
+            <li><button class="filter-btn">New Arrival</button></li>
+          </ul>
+          <ul class="product-list">
+            <li>
+              <div class="product-card">
+                <figure class="card-banner">
+                  <a href="#"><img src="low se.png" alt="" loading="lazy" width="800"height="1034" class="itempic"></a>
+                  <div class="card-badge red"> -25%</div>
+                  <div class="card-actions">
+                    <button class="card-action-btn">
+                      <i class="ri-eye-line"></i>
+                    </button>
+                    <button class="card-action-btn cart-btn">
+                      <i class="ri-shopping-bag-line"></i>
+                      <p>Add to Cart</p>
+                    </button>
+                    <button class="card-action-btn">
+                      <i class="ri-heart-3-line"></i>
+                    </button>
+                  </div>
+                </figure>
+                <div class="card-content">
+                  <h3 class="h4 card-title">
+                    <a href="#">Nike Dunk Low SE</a>
+                  </h3>
+                  <div class="card-price">
+                    <data value="450.0">AED 450.0</data>
+                    <data value="600.0">AED 600.0</data>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="product-card">
+                <figure class="card-banner">
+                  <a href="#"><img src="1 mid se.png" alt="" loading="lazy" width="800"height="1034" class="itempic"></a>
+                  <div class="card-badge green"> New</div>
+                  <div class="card-actions">
+                    <button class="card-action-btn"><i class="ri-eye-line"></i></button>
+                    <button class="card-action-btn cart-btn"><i class="ri-shopping-bag-line"></i><p>Add to Cart</p></button>
+                    <button class="card-action-btn"><i class="ri-heart-3-line"></i></button>
+                  </div>
+                </figure>
+                <div class="card-content">
+                  <h3 class="h4 card-title"><a href="#">Jordan 1 Mid SE</a></h3>
+                  <div class="card-price">
+                    <data value="525.0">AED 525.0</data>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="product-card">
+                <figure class="card-banner">
+                  <a href="#"><img src="alphafly.png" alt="" loading="lazy"width="800" height="1034" class="itempic"></a>
+                  <div class="card-actions">
+                    <button class="card-action-btn" >
+                      <i class="ri-eye-line"></i>
+                    </button>
+                    <button class="card-action-btn cart-btn">
+                      <i class="ri-shopping-bag-line"></i>
+                      <p>Add to Cart</p>
+                    </button>
+                    <button class="card-action-btn" >
+                      <i class="ri-heart-3-line"></i>
+                    </button>
+                  </div>
+                </figure>
+                <div class="card-content">
+                  <h3 class="h4 card-title">
+                    <a href="#">Nike AlphaFly 3 Proto</a>
+                  </h3>
+                  <div class="card-price">
+                    <data value="1500">AED 1500</data>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="product-card">
+                <figure class="card-banner">
+                  <a href="#"><img src="zoom fly.png" alt="" loading="lazy" width="800"height="1034" class="itempic"></a>
+                  <div class="card-actions">
+                    <button class="card-action-btn" >
+                      <i class="ri-eye-line"></i>
+                    </button>
+                    <button class="card-action-btn cart-btn">
+                      <i class="ri-shopping-bag-line"></i>
+                      <p>Add to Cart</p>
+                    </button>
+                    <button class="card-action-btn" >
+                      <i class="ri-heart-3-line"></i>
+                    </button>
+                  </div>
+                </figure>
+                <div class="card-content">
+                  <h3 class="h4 card-title">
+                    <a href="#">Nike Vomero 17</a>
+                  </h3>
+                  <div class="card-price">
+                    <data value="750.0">AED 750.0</data>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="product-card">
+                <figure class="card-banner">
+                  <a href="#"><img src="retro og.png" alt="" loading="lazy" width="800"height="1034" class="itempic"></a>
+                  <div class="card-actions">
+                    <button class="card-action-btn" >
+                      <i class="ri-eye-line"></i>
+                    </button>
+                    <button class="card-action-btn cart-btn">
+                      <i class="ri-shopping-bag-line"></i>
+                      <p>Add to Cart</p>
+                    </button>
+                    <button class="card-action-btn" >
+                      <i class="ri-heart-3-line"></i>
+                    </button>
+                  </div>
+                </figure>
+                <div class="card-content">
+                  <h3 class="h4 card-title">
+                    <a href="#">Air Jordan 1 Retro High OG</a>
+                  </h3>
+                  <div class="card-price">
+                    <data value="975.00">AED 975.00</data>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="product-card">
+                <figure class="card-banner">
+                  <a href="#">
+                    <img src="airmax.png" alt="" loading="lazy" width="800"
+                      height="1034" class="itempic">
+                  </a>
+                  <div class="card-actions">
+                    <button class="card-action-btn" >
+                      <i class="ri-eye-line"></i>
+                    </button>
+                    <button class="card-action-btn cart-btn">
+                      <i class="ri-shopping-bag-line"></i>
+                      <p>Add to Cart</p>
+                    </button>
+                    <button class="card-action-btn" >
+                      <i class="ri-heart-3-line"></i>
+                    </button>
+                  </div>
+                </figure>
+                <div class="card-content">
+                  <h3 class="h4 card-title">
+                    <a href="#">Nike Air Max Pulse</a>
+                  </h3>
+                  <div class="card-price">
+                    <data value="AED 449.00">AED 449.00</data>
+                    <data value="AED 800.00">AED 800.00</data>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="product-card">
+                <figure class="card-banner">
+                  <a href="#">
+                    <img src="air07.png" alt="" loading="lazy" width="800"
+                      height="1034" class="itempic">
+                  </a>
+                  <div class="card-actions">
+                    <button class="card-action-btn" >
+                      <i class="ri-eye-line"></i>
+                    </button>
+                    <button class="card-action-btn cart-btn">
+                      <i class="ri-shopping-bag-line"></i>
+                      <p>Add to Cart</p>
+                    </button>
+                    <button class="card-action-btn" >
+                      <i class="ri-heart-3-line"></i>
+                    </button>
+                  </div>
+                </figure>
+                <div class="card-content">
+                  <h3 class="h4 card-title">
+                    <a href="#">Nike Air Force 1 '07</a>
+                  </h3>
+                  <div class="card-price">
+                    <data value="AED 475.00">AED 475.00</data>
+                    <data value="AED 675.00">AED 675.00</data>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="product-card">
+                <figure class="card-banner">
+                  <a href="#">
+                    <img src="jordan high g.png" alt="" loading="lazy" width="800"
+                      height="1034" class="itempic">
+                  </a>
+                  <div class="card-actions">
+                    <button class="card-action-btn" >
+                      <i class="ri-eye-line"></i>
+                    </button>
+                    <button class="card-action-btn cart-btn">
+                      <i class="ri-shopping-bag-line"></i>
+                      <p>Add to Cart</p>
+                    </button>
+                    <button class="card-action-btn" >
+                      <i class="ri-heart-3-line"></i>
+                    </button>
+                  </div>
+                </figure>
+                <div class="card-content">
+                  <h3 class="h4 card-title">
+                    <a href="#">Air Jordan I High G</a>
+                  </h3>
+                  <div class="card-price">
+                    <data value="AED 890.0">AED 890.0</data>
+                    <data value="AED 1,000">AED 1,000</data>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="product-card">
+                <figure class="card-banner">
+                  <a href="#">
+                    <img src="fleeece2.png" alt="" loading="lazy" width="800"
+                      height="1034" class="itempic">
+                  </a>
+                  <div class="card-actions">
+                    <button class="card-action-btn" >
+                      <i class="ri-eye-line"></i>
+                    </button>
+                    <button class="card-action-btn cart-btn">
+                      <i class="ri-shopping-bag-line"></i>
+                      <p>Add to Cart</p>
+                    </button>
+                    <button class="card-action-btn" >
+                      <i class="ri-heart-3-line"></i>
+                    </button>
+                  </div>
+                </figure>
+                <div class="card-content">
+                  <h3 class="h4 card-title">
+                    <a href="#">Jordan Artist Series by Jordan Moss | Brooklyn Fleece Trouser</a>
+                  </h3>
+                  <div class="card-price">
+                    <data value="AED 425.00">AED 425.00</data>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="product-card">
+                <figure class="card-banner">
+                  <a href="#"><img src="fleeece1.png" alt="" loading="lazy" width="800"height="1034" class="itempic"></a>
+                  <div class="card-actions">
+                    <button class="card-action-btn" >
+                      <i class="ri-eye-line"></i>
+                    </button>
+                    <button class="card-action-btn cart-btn">
+                      <i class="ri-shopping-bag-line"></i>
+                      <p>Add to Cart</p>
+                    </button>
+                    <button class="card-action-btn" >
+                      <i class="ri-heart-3-line"></i>
+                    </button>
+                  </div>
+                </figure>
+                <div class="card-content">
+                  <h3 class="h4 card-title">
+                    <a href="#">Jordan Artist Series by Jordan Moss | Brooklyn Fleece Trousers</a>
+                  </h3>
+                  <div class="card-price">
+                    <data value="AED 425.00">AED 425.00</data>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+          <button class="btn btn-outline">View All Products</button>
+        </div>
+      </section>
+      <section class="section newsletter"><!--start of newsletter section-->
+        <div class="container">
+          <div class="newsletter-card" style="background-image: url('./assets/images/newsletter-bg.png')">
+            <h2 class="card-title">Subscribe Newsletter</h2>
+            <p class="card-text">
+              Enter your email below to be the first to know about new collections and product launches.
+            </p>
+            <form action="" class="card-form">
+              <div class="input-wrapper">
+                <input type="email" name="emal" placeholder="Enter your email" required class="input-field">
+              </div>
+              <button type="submit" class="btn btn-primary itempic">
+                <span>Subscribe</span>
+                <i class="ri-arrow-right-fill"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </article>
+  </main>
+  <footer class="footer"><!--start of footer-->
+    <div class="footer-top">
+      <div class="container">
+        <div class="footer-brand">
+          <a href="#" class="logo">
+            <img src="nike-64 (1).png" alt="">
+          </a>
+          <p class="footer-text">Nike, the epitome of athletic prowess and style, offers cutting-edge sportswear and iconic sneakers. 
+            With a relentless commitment to innovation, Nike caters to athletes and fashion enthusiasts alike. Elevate your performance 
+            and fashion game with the unparalleled quality and iconic swoosh that defines Nike's legacy.</p>
+          <ul class="social-list">
+            <li><a href="#" class="social-link"><i class="ri-facebook-fill"></i></a></li>
+            <li><a href="#" class="social-link"><i class="ri-twitter-x-line"></i></a></li>
+            <li><a href="#" class="social-link"><i class="ri-instagram-line"></i></a></li>
+          </ul>
+        </div>
+        <ul class="footer-list">
+          <li><p class="footer-list-title">Information</p></li>
+          <li><a href="#" class="footer-link">About Nike</a></li>
+          <li><a href="#" class="footer-link">Refund Policy</a></li>
+        </ul>
+        <ul class="footer-list">
+          <li><p class="footer-list-title">Category</p></li>
+          <li><a href="#" class="footer-link">WOMEN</a></li>
+          <li><a href="#" class="footer-link">MEN</a></li>
+          <li><a href="#" class="footer-link">KIDS</a></li>
+        </ul>
+        <ul class="footer-list">
+          <li><p class="footer-list-title">Help & Support</p></li>
+          <li><a href="#" class="footer-link">FAQ Information</a></li>
+          <li><a href="#" class="footer-link">Return Policy</a></li>
+          <li><a href="#" class="footer-link">Shipping & Delivery</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p class="copyright"><a href="#">by Mohammad Sanad :D</a></p>
+      </div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
